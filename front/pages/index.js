@@ -9,13 +9,6 @@ function Home() {
   return (
     <AppLayout>
       <Search />
-      {searchList.map((v) => (
-        <>
-          <div>
-            {v.PlaceName}({v.PlaceId})
-          </div>
-        </>
-      ))}
     </AppLayout>
   );
 }
